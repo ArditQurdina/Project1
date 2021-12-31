@@ -5,256 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>First Project</title>
-    <style>
-        body,
-        html {
-            height: 100%;
-            margin: 0;
-        }
-
-        .bg {
-            background-image: url("augustine-wong-wjL78m4a2qM-unsplash.png");
-
-            /* Full height */
-            height: 100%;
-
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-
-        }
-
-        .mutual_div {
-            width: 50%;
-            margin: auto;
-        }
-
-        .menu_Button {
-            font-family: 'GT Haptik Regular';
-        }
-
-        .menu {
-            font-family: 'GT Haptik';
-            text-decoration-line: none;
-            color: black;
-            font-weight: 800;
-        }
-
-        .shake-swiss {
-            width: 15%;
-        }
-
-        .readMore_Button {
-            height: 40px;
-            width: 130px;
-            text-align: center;
-            border-radius: 19px;
-            border: 1.4px solid;
-        }
-
-        .titleAndReadMore {
-            margin-top: 170px;
-        }
-
-        .title {
-
-            font-family: Helvetica;
-            font-size: 64px;
-            font-weight: 400;
-            line-height: 75px;
-            padding-top: 170px;
-        }
-
-        .white_space {
-            height: 45px;
-            background-color: white;
-            text-align: center;
-            position: relative;
-        }
-
-        .scroll_down {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .content {
-            height: 500px;
-            background-color: red;
-            color: white;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            align-items: stretch;
-            align-content: space-around;
-
-        }
-
-        .last-row-button-flex {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-between;
-            align-items: flex-end;
-        }
-    </style>
+    <link rel="stylesheet" href="home-page.css">
 </head>
 
 <body>
 
     <div class="bg">
-        <div class="mutual_div" style="padding: 20px 0px;">
+        <div class="mutual_div div-of-first-bg">
             <a href="menu1.html">
-                <div class="menu" style="float: right;">menu</div>
+                <div class="menu">menu</div>
             </a>
-            <img class="shake-swiss" src="Group 2.png">
+            <img class="shake-swiss" src="img/Group 2.png">
             <div class="title">Your change <br>management partner</div>
-            <button class="readMore_Button"
-                style="color: crimson; background-color: white; border: 1px solid crimson; margin-top: 40px;">
-                <a href="#" style="color: crimson; text-decoration: none;">Read more
-                    &nbsp;&nbsp;&nbsp;&nbsp;></a></button>
+            <button class="readMore_Button first_button">
+                <a href="#" class="inside_of_the_first_button">Read more&nbsp;&nbsp;&nbsp;&nbsp;></a></button>
         </div>
-
     </div>
+
     <div class="white_space">
         <div class="scroll_down">Scroll down</div>
     </div>
 
-
-    <div class="second_bg" style="background-color: rgb(200,11,50); padding: 100px 0px;">
-        <div class="mutual_div" style="color: white; font-family: Helvetica;">
-            <div style="font-size: 40px;">Lorem ipsum dolor<br /> it amet, consectetur<br />
-                adipisicing elit.<br /> Nam
-                aliquet suscipit.</div><br />
-            <div style="font-size: 12px;">Lorem ipsum, Dolor sit amet</div>
-            <div class="last-row-button-flex">
-                <div style="font-size: 12px;">asdads</div>
-                <button class="readMore_Button" style="color: white; background-color: black; border: none;">
-                    <a href="#" style="color: white; text-decoration: none;">Read more
+    <div class="second_bg">
+        <div class="mutual_div div-of-second-bg">
+            <div class="first-part-of-div-of-second-bg">Lorem ipsum dolor<br /> it amet, consectetur<br />
+                adipisicing elit.<br /> Nam aliquet suscipit.</div><br />
+            <div class=" font-size-of-12px second-part-of-div-of-second-bg">Lorem ipsum, Dolor sit amet</div>
+            <div class="last-part-of-div-of-second-bg">
+                <div class="font-size-of-12px">asdads</div>
+                <button class="readMore_Button second_button">
+                    <a class="inside_of_the_second_button" href="#">Read more
                         &nbsp;&nbsp;&nbsp;&nbsp;></a></button>
             </div>
         </div>
     </div>
 
-    <div class="third_bg" style="background-color: white; height: 500px; display: flex; flex-direction: row;
-	flex-wrap: nowrap; justify-content: flex-end; align-items: center; align-content: stretch;">
+    <div class="third_bg">
 
-        <div class="main_div" style="width: 75%; float: right; display: flex;
-        flex-direction: row;">
-            <div><img src="1.png" width="100%" height="100%"></div>
-            <div><img src="2.png" width="100%" height="100%"></div>
-            <div><img src="3.png" width="100%" height="100%"></div>
+        <div class="div-of-third-bg">
+            <div><img src="img/1.png" width="100%" height="100%"></div>
+            <div><img src="img/2.png" width="100%" height="100%"></div>
+            <div><img src="img/3.png" width="100%" height="100%"></div>
         </div>
     </div>
 
 
-    <div class="fourth_bg" style="height: 460px; background-color: black; position: relative;">
+    <div class="fourth_bg">
 
-        <div style="width: 46%; height: 380px; margin: auto; position: absolute; top: 50%;
-            left: 50%; transform: translate(-50%, -50%); display: flex; flex-direction: row; flex-wrap: wrap;
-	justify-content: space-between; align-items: center; align-content: space-between;">
+        <div class="div-of-fourth-bg">
 
-            <div style="font-size: 22px; font-family: Helvetica; color: white; margin: 0 auto;">
-                <div>Ils nous font confiance</div>
+            <div class="title-of-div-of-fourth-bg">
+                Ils nous font confiance
             </div>
 
-            <div style="width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
-            align-items: center; align-content: stretch;">
-                <img src="Group 155.png" width="15%" alt="">
-                <img src="Group 157.png" width="15%" alt="">
-                <img src="Group 160.png" width="10%" alt="">
-                <img src="Group 161.png" width="15%" alt="">
+            <div class="list-of-logos">
+                <img src="img/Group 155.png" width="15%" alt="">
+                <img src="img/Group 157.png" width="15%" alt="">
+                <img src="img/Group 160.png" width="10%" alt="">
+                <img src="img/Group 161.png" width="15%" alt="">
 
             </div>
 
-            <div style="width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
-            align-items: center; align-content: stretch;">
-                <img src="Group 164.png" width="15%" alt="">
-                <img src="Group 160.png" width="10%" alt="">
-                <img src="Group 161.png" width="15%" alt="">
-                <img src="Group 155.png" width="15%" alt="">
+            <div class="list-of-logos">
+                <img src="img/Group 164.png" width="15%" alt="">
+                <img src="img/Group 160.png" width="10%" alt="">
+                <img src="img/Group 161.png" width="15%" alt="">
+                <img src="img/Group 155.png" width="15%" alt="">
             </div>
 
-            <div style="width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;
-            align-items: center; align-content: stretch;">
-                <img src="Group 160.png" width="10%" alt="">
-                <img src="Group 161.png" width="15%" alt="">
-                <img src="Group 155.png" width="15%" alt="">
-                <img src="Group 164.png" width="15%" alt="">
+            <div class="list-of-logos">
+                <img src="img/Group 160.png" width="10%" alt="">
+                <img src="img/Group 161.png" width="15%" alt="">
+                <img src="img/Group 155.png" width="15%" alt="">
+                <img src="img/Group 164.png" width="15%" alt="">
             </div>
 
-            <div style=" color: white; font-size: 12.4px; word-spacing: 1.5px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-end;
-            align-items: center; align-content: stretch; margin-left: auto; margin-right: -20px;">
-                <button style="border: none; background:none; color: white;">See more&nbsp;&nbsp;&nbsp;></button>
-            </div>
+                <button class="seeMore_Button">See more&nbsp;&nbsp;&nbsp;></button>
 
         </div>
 
 
     </div>
 
-    <div class="fifth_bg"
-        style="background-color:white; height: 600px; position: relative; border-bottom: 1px solid #707070;">
+    <div class="fifth_bg">
 
-        <div class="div-of-fifth-bg" style="width: 45%; margin: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
-        text-align: center; color: black; font-family: Helvetica;">
-            <div style="font-size: 20px; letter-spacing: 2.1px;">CONTACT</div>
-            <div style="font-size: 35px; padding-top: 65px;">Ecrivez-nous votre message.
+        <div class="div-of-fifth-bg">
+            <div class="title-of-div-of-fifth-bg">CONTACT</div>
+            <div class="second-part-of-div-of-fifth-bg">Ecrivez-nous votre message.
                 <br />Prenons contact ensemble.
             </div>
-            <div
-                style="font-size: 17px; width: 100%; border-bottom: gray 1px solid; padding:65px 0px 5px 0px; text-align: left;">
+            <div class="first-row-fifth-bg three-rows-of-div-of-fifth-bg">
                 nom et prenom</div>
-            <div
-                style="font-size: 17px; width: 100%; border-bottom: gray 1px solid; padding:15px 0px 5px 0px; text-align: left;">
+            <div class="second-and-third-row three-rows-of-div-of-fifth-bg">
                 adresse mail</div>
-            <div
-                style="font-size: 17px; width: 100%; border-bottom: gray 1px solid; padding:15px 0px 5px 0px; text-align: left;">
+            <div class="second-and-third-row three-rows-of-div-of-fifth-bg">
                 votre message</div>
-            <div style="padding-top: 65px;"><button class="readMore_Button"
-                    style="color: black; background: none; border: 1px solid;">
-                    <a href="#" style="color: black; text-decoration: none;">Envoyer</a></button></div>
+            <div class="div-of-third-button"><button class="readMore_Button third_button">
+                    <a class="inside_of_the_third_button" href="#">Envoyer</a></button></div>
         </div>
     </div>
 
-    <div class="sixth_bg" style="background-color:black; height: 240px; position: relative;">
+    <div class="sixth_bg">
+        <div class="mutual_div div-of-sixth-bg">
+            <div class="content2 upper--content">
+                <p class="mutual--paragraph">
+                    <span>shake.swiss</span>
+                    <span class="different--span">Rue du Mont-Blanc 22</span>
+                    <span class="mutual--span">1201 Genève</span>
+                    <span class="mutual--span">Suisse</span>
+                    <span class="different--span">+41 22 304 12 00</span>
+                    <span class="mutual--span">geneve@une.ch</span>
+                </p>
 
-        <div class="mutual_div" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-            <div class="left-and-right-divs" style="display: flex; flex-direction: row; flex-wrap: nowrap;
-            justify-content: space-between; align-items: flex-start; align-content: stretch;">
-                <div style="height: 190px; color: white; display: flex; flex-direction: column; flex-wrap: nowrap;
-            justify-content: space-between; align-items: flex-start; align-content: stretch;">
-                    <div>
-                        <div style="font-size: 13px;">shake.swiss</div>
-                        <div style="padding-top: 11px; font-size: 13px;">Rue du Mont-Blanc 22</div>
-                        <div style="font-size: 13px;">1201 Geneve</div>
-                        <div style="font-size: 13px;">Suisse</div>
-                        <div style="padding-top: 11px; font-size: 13px;">+41 22 304 12 00</div>
-                        <div style="font-size: 13px;">geneve@une.ch</div>
-                    </div>
-                    <div style="color: #707070;">Copyright &copy; 2019 UNE SA</div>
-                </div>
-                <div style="height: 190px; color: white; display: flex; flex-direction: column; flex-wrap: nowrap;
-                justify-content: space-between; align-items: stretch; align-content: stretch;">
-                    <div>
-                        <div style="font-size: 13px;">Mention legales</div>
-                        <div style="font-size: 13px;">FAQ</div>
-                    </div>
-                    <div>
-                        A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A
+                <p class="mutual--paragraph paragraph_and_icons">
+                    <span>Mention legales</span>
+                    <span class="mutual--span">FAQ</span>
+                </p>
+            </div>
 
-                    </div>
-                </div>
+            <div class="content2 lower--content">
+                <p>Copyright © 2019 UNE SA</p>
+                <ul class="list-of-icons paragraph_and_icons">
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
             </div>
         </div>
     </div>
-
-
-
 </body>
 
 </html>

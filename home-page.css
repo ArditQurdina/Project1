@@ -1,0 +1,297 @@
+body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            background-image: url("img/augustine-wong-wjL78m4a2qM-unsplash.png");
+
+            /* Full height */
+            height: 95%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .mutual_div {
+            width: 50%;
+            margin: auto;
+        }
+        
+        .div-of-first-bg {
+            padding: 20px 0px;
+        }
+
+        .menu_Button {
+            font-family: 'GT Haptik Regular';
+        }
+
+        .menu {
+            font-family: 'GT Haptik';
+            text-decoration-line: none;
+            color: black;
+            font-weight: 800;
+            float: right;
+        }
+
+        .shake-swiss {
+            width: 15%;
+        }
+
+        .readMore_Button {
+            height: 40px;
+            width: 130px;
+            text-align: center;
+            border-radius: 19px;
+            border: 1.4px solid;
+        }
+
+        .first_button {
+            border: 1.4px solid;
+            color: crimson;
+            background-color: white;
+            border: 1px solid crimson;
+            margin-top: 40px;
+        }
+
+        .inside_of_the_first_button {
+            color: crimson;
+            text-decoration: none;
+        }
+
+        .titleAndReadMore {
+            margin-top: 170px;
+        }
+
+        .title {
+
+            font-family: Helvetica;
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 75px;
+            margin-top: 170px;
+        }
+
+        .white_space {
+            height: 5%;
+            background-color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .scroll_down {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 12.7px;
+        }
+
+        .second_bg {
+            background-color: rgb(200, 11, 50);
+            padding: 100px 0px;
+        }
+
+        .div-of-second-bg {
+            color: white;
+            font-family: Helvetica;
+        }
+
+        .first-part-of-div-of-second-bg {
+            font-size: 40px;
+        }
+
+        .font-size-of-12px {
+            font-size: 12px;
+        }
+
+        .last-part-of-div-of-second-bg {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .second_button {
+            color: white;
+            background-color: black;
+            border: none;
+        }
+
+        .inside_of_the_second_button {
+            color: white;
+            text-decoration: none;
+        }
+
+        .third_bg {
+            height: 500px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .div-of-third-bg {
+            width: 75%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .fourth_bg {
+            height: 460px;
+            background-color: black;
+            position: relative;
+        }
+
+        .div-of-fourth-bg {
+            width: 46%;
+            height: 380px;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-between;
+        }
+        .title-of-div-of-fourth-bg {
+            font-size: 22px; 
+            font-family: Helvetica; 
+            color: white; 
+            margin: 0 auto;
+        }
+
+        .list-of-logos {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .seeMore_Button {
+            color: white; 
+            font-size: 12.4px; 
+            word-spacing: 1.5px; 
+            margin-left: auto; 
+            margin-right: -20px;
+            border: none; 
+            background: none;
+        }
+
+        .fifth_bg {
+            position: relative;
+            background-color: white;
+            height: 600px;
+            border-bottom: 1px solid #707070;
+        }
+
+        .div-of-fifth-bg {
+            width: 45%;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: black;
+            font-family: Helvetica;
+        }
+        
+        .title-of-div-of-fifth-bg {
+            font-size: 20px;
+            letter-spacing: 2.1px;
+        }
+        
+        .second-part-of-div-of-fifth-bg {
+            font-size: 35px; 
+            padding-top: 65px;
+        }
+        
+        .three-rows-of-div-of-fifth-bg {
+            font-size: 17px; 
+            width: 100%; 
+            border-bottom: gray 1px solid; 
+            padding-bottom: 5px;
+            text-align: left;
+        }
+        
+        .first-row-fifth-bg {
+            padding-top: 65px;
+        }
+        
+        .second-and-third-row {
+            padding-top: 15px;
+        }
+        
+        .div-of-third-button {
+            padding-top: 65px;
+        }
+        
+        .third_button {
+            color: black; 
+            border: 1px solid;
+            background: none;
+        }
+        
+        .inside_of_the_third_button {
+            color: black; 
+            text-decoration: none;
+        }
+
+         
+        .sixth_bg {
+            background-color: black;
+        }
+
+        .div-of-sixth-bg {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            color: white;
+        }
+
+        .content2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .list-of-icons {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            color: #999999;
+        }
+
+        .lower--content {
+            margin-top: 120px;
+        }
+
+        .mutual--paragraph {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .mutual--span {
+            margin-top: 2px;
+        }
+
+        .different--span {
+            margin-top: 25px;
+        }
+
+        .paragraph_and_icons {
+            width: 270px;
+        }
