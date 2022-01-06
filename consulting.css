@@ -4,36 +4,44 @@ body,
             margin: 0;
         }
 
+        .background-1 {
+            background-image: url("img/ramon-salinero-vEE00Hx5d0Q-unsplash.png");
+        }
+        
+        .background-2 {
+            background-image: url("img/aron-visuals-bZZp1PmHI0E-unsplash.png");
+        }
+        
+        .background-3 {
+            background-image: url("img/christopher-burns-Kj2SaNHG-hg-unsplash.png");
+
+        }
+        
+        .background-4 {
+            background-image: url("img/tim-mossholder-1NnP799xWDw-unsplash.png");
+        }
+        
         .bg {
-            background-image: url("img/augustine-wong-wjL78m4a2qM-unsplash.png");
-
-            /* Full height */
             height: 94%;
-
-            /* Center and scale the image nicely */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-
+            position: relative;
         }
 
         .mutual_div {
             width: 70%;
             margin: auto;
         }
-        
+
         .div-of-first-bg {
             padding: 20px 0px;
-        }
-
-        .menu_Button {
-            font-family: 'GT Haptik Regular';
         }
 
         .menu {
             font-family: 'GT Haptik';
             text-decoration-line: none;
-            color: black;
+            color: white;
             font-weight: 800;
             float: right;
             font-size: 20px;
@@ -49,31 +57,39 @@ body,
             width: 150px;
             text-align: center;
             border-radius: 22px;
+            background: none;
+            color: white;
             border: 1.4px solid;
         }
 
-        .first_button {
-            border: 1.4px solid;
-            color: crimson;
-            background-color: white;
-            border: 1px solid crimson;
-            margin-top: 30px;
-        }
-
-        .inside_of_the_first_button {
-            color: crimson;
+        .inside_of_the_button {
+            color: white;
             text-decoration: none;
             font-size: 18px;
-
+        }
+        .three_divs {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
         }
 
-        .title {
-
+        .firstDiv {
             font-family: Helvetica;
-            font-size: 70px;
+            font-size: 35px;
+            margin-bottom: 35px;
+        }
+
+        .secondDiv {
+            font-family: Helvetica;
+            font-size: 66px;
             font-weight: 400;
-            line-height: 75px;
-            margin-top: 120px;
+        }
+
+        .thirdDiv {
+            margin-top: 35px;
         }
 
         .white_space {
@@ -89,176 +105,142 @@ body,
             font-size: 17px;
         }
 
-        .second_bg {
-            background-color: rgb(200, 11, 50);
-            padding: 150px 0px;
-        }
 
         .div-of-second-bg {
-            color: white;
+            padding-top: 150px;
+            padding-bottom: 150px;
             font-family: Helvetica;
-        }
-
-        .first-part-of-div-of-second-bg {
-            font-size: 40px;
-        }
-        
-        .second-part-of-div-of-second-bg {
-            margin-top: 25px;
-        }
-
-        .font-size-of-20px {
-            font-size: 20px;
-        }
-
-        .last-part-of-div-of-second-bg {
             display: flex;
             justify-content: space-between;
-            align-items: flex-end;
-            margin-top: 20px;
+            align-items: flex-start;
         }
 
-        .second_button {
-            color: white;
-            background-color: black;
-            border: none;
+        .left_div {
+            font-size: 27px;
         }
 
-        .inside_of_the_second_button {
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
+        .left-part-of-div-of-second-bg {
+            color: #D60B1A;
         }
+
+        .right_div {
+            width: 715px;
+
+        }
+
+        .right-part-of-div-of-second-bg {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .first-mutual-font-size {
+            font-size: 27px;
+        }
+        .second-mutual-font-size {
+            font-size: 17px;
+        }
+
+        .second-right-part-second-bg {
+            height: 51px;
+            margin-top: 30px;
+        }
+        
 
         .third_bg {
-            background-color: white;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
+            background-color: #D60B1A;
         }
 
         .div-of-third-bg {
-            width: 85%;
-            padding-top: 170px;
-            padding-bottom: 220px;
-            display: flex; 
-            flex-direction: column; 
+            padding-top: 150px;
+            padding-bottom: 150px;
             font-family: Helvetica;
-        }
-        
-        .first-div-of-div-of-third-bg {
-            margin-bottom: 75px; 
-            font-size: 45px;
-        }
-        
-        .second-div-of-div-of-third-bg {
             display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
         }
-        
-        .images-div {
-            display: flex; 
-            flex-direction: column; 
-            justify-content: center;
-            font-size: 20px;
+
+        .left-part-of-div-of-third-bg {
+            color: white;
         }
-        .mutual-margin {
-            margin-bottom: 10px;
+
+        .right-part-of-div-of-third-bg {
+            color: white;
         }
 
         .fourth_bg {
-            background-color: black;
+            background-color: white;
         }
 
         .div-of-fourth-bg {
             padding-top: 150px;
             padding-bottom: 150px;
-            width: 66%;
-            margin: auto;
+            font-family: Helvetica;
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
-            align-items: center;
-        }
-        
-        .title-of-div-of-fourth-bg {
-            font-size: 27px; 
-            font-family: Helvetica; 
-            color: white; 
-            margin: auto;
+            align-items: flex-start;
         }
 
-        .list-of-logos {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 150px;
+        .left-part-of-div-of-fourth-bg {
+            color: #D60B1A;
         }
-        
-        .seeMore_Button {
-            color: white; 
-            font-size: 18px; 
-            word-spacing: 1.5px;
-            margin-left: auto;
-            margin-right: -20px;
-            border: none; 
-            background: none;
-            margin-top: 150px;
+
+
+        .fifth_bg {
+            background-color: black;
+            border-bottom: 1px solid #707070;
         }
 
         .div-of-fifth-bg {
-            width: 45%;
             padding-top: 150px;
             padding-bottom: 150px;
+            width: 45%;
             margin: auto;
             text-align: center;
-            color: black;
+            color: white;
             font-family: Helvetica;
         }
-        
         .title-of-div-of-fifth-bg {
-            font-size: 25px;
+            font-size: 25px; 
             letter-spacing: 2.1px;
         }
-        
-        .second-part-of-div-of-fifth-bg {
-            font-size: 38px; 
+        .text-under-the-title {
+            font-size: 40px; 
             padding-top: 65px;
         }
-        
+
         .three-rows-of-div-of-fifth-bg {
-            font-size: 20px; 
+            font-size: 20px;
             width: 100%;
             border-bottom: gray 1px solid;
             padding-bottom: 5px;
             text-align: left;
         }
-        
+
         .first-row-fifth-bg {
             padding-top: 65px;
         }
-        
+
         .second-and-third-row {
             padding-top: 15px;
         }
-        
+
         .div-of-third-button {
             padding-top: 65px;
         }
         
         .third_button {
-            color: black; 
+            color: white; 
             border: 1px solid;
             background: none;
         }
         
         .inside_of_the_third_button {
-            color: black; 
+            color: white; 
             text-decoration: none;
             font-size: 18px;
         }
- 
+
         .sixth_bg {
             background-color: black;
         }
@@ -274,7 +256,7 @@ body,
             justify-content: space-between;
         }
 
-        .list-of-icons {
+        .icons-list {
             display: flex;
             justify-content: space-between;
             list-style-type: none;
@@ -299,11 +281,11 @@ body,
         .different--span {
             margin-top: 25px;
         }
-
+        
         .mutual-font_size {
             font-size: 20px;
         }
 
-        .paragraph_and_icons {
+        .right-paragraph_and_icons {
             width: 270px;
         }

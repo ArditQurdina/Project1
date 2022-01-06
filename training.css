@@ -1,0 +1,229 @@
+        
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            background-image: url("img/Interne.png");
+
+            height: 94%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+        }
+
+        .mutual_div {
+            width: 70%;
+            margin: auto;
+            color: white;
+        }
+
+        .div-of-first-bg {
+            padding: 20px 0px;
+        }
+
+        .menu {
+            font-family: 'GT Haptik';
+            text-decoration-line: none;
+            color: white;
+            font-weight: 800;
+            float: right;
+            font-size: 20px;
+        }
+
+        .shake-swiss {
+            width: 23%;
+        }
+
+        .second-part-of-main-title {
+            text-align: center;
+        }
+
+        .readMore_Button {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            width: 150px;
+            text-align: center;
+            border-radius: 22px;
+            background: none;
+            color: white;
+            border: 1.4px solid;
+        }
+
+        .inside_of_the_button {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .three_divs {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .firstDiv {
+            font-family: Helvetica;
+            font-size: 35px;
+            margin-bottom: 35px;
+        }
+
+        .secondDiv {
+            font-family: Helvetica;
+            font-size: 66px;
+            font-weight: 400;
+        }
+
+        .thirdDiv {
+            margin-top: 35px;
+        }
+
+        .white_space {
+            height: 6%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Helvetica;
+        }
+
+        .scroll_down {
+            font-size: 17px;
+        }
+
+
+        .second_bg {
+            background-color: white;
+        }
+
+        .div-of-second-bg {
+            padding-top: 150px;
+            padding-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-between;
+            font-family: Helvetica;
+        }
+
+        .content-of-div-of-second-bg {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 120px;
+        }
+
+        .left_div {
+            color: #D60B1A;
+            font-size: 27px;
+        }
+
+        .right_div {
+            width: 705px;
+            height: 100%;
+            color: black;
+            font-size: 17px;
+        }
+
+        .third_bg {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: space-between;
+        }
+
+        .left_and_right_half {
+            width: 50%;
+            height: 500px;
+            font-family: Helvetica;
+        }
+
+        .right_half {
+            background-color: #D60B1A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div-of-right-half {
+            width: 60%;
+            text-align: center;
+            color: white;
+        
+        }
+
+        .title-and-third-part-of-right-half {
+            font-size: 25px;
+        }
+
+        .paragraph-and-fourth-part-of-right-half {
+            padding-top: 30px;
+            line-height: 23px;
+        }
+
+        .paragraph-of-right-half {
+            font-size: 16px;
+            
+        }
+
+        .third-part-of-right-half {
+            padding-top: 65px;
+        }
+
+        .fourth_bg {
+            background-color: black;
+        }
+
+        .div-of-fourth-bg {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            color: white;
+        }
+
+        .content2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .icons-list {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            color: #999999;
+        }
+
+        .lower--content {
+            margin-top: 120px;
+        }
+
+        .mutual--paragraph {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .mutual--span {
+            margin-top: 2px;
+        }
+
+        .different--span {
+            margin-top: 25px;
+        }
+
+        .mutual-font_size {
+            font-size: 20px;
+        }
+
+        .right-paragraph_and_icons {
+            width: 270px;
+        }
