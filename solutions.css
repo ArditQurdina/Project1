@@ -72,18 +72,17 @@ body,
             transform: translate(-50%, -50%);
             text-align: center;
             color: white;
+            font-family: Helvetica;
         }
 
         .firstDiv {
-            font-family: Helvetica;
-            font-size: 35px;
+            font-size: 38px;
             margin-bottom: 35px;
 
         }
 
         .secondDiv {
-            font-family: Helvetica;
-            font-size: 66px;
+            font-size: 76px;
             font-weight: 400;
         }
 
