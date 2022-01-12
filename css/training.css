@@ -1,0 +1,244 @@
+        
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .first_section {
+            background-image: url("../img/Interne.png");
+
+            height: 94%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+        }
+
+        .mutual_div {
+            width: 70%;
+            margin: auto;
+            color: white;
+        }
+
+        .header-of-first-section {
+            padding: 20px 0px;
+        }
+
+        .menu {
+            font-family: 'GT Haptik';
+            text-decoration-line: none;
+            color: white;
+            font-weight: 800;
+            float: right;
+            font-size: 20px;
+        }
+
+        .shake-swiss {
+            width: 150px;
+        }
+
+        .second-part-of-main-title {
+            text-align: center;
+        }
+
+        .readMore_Button {
+            padding: 12px 30px;
+            text-align: center;
+            border-radius: 22px;
+            background: none;
+            color: white;
+            border: 1.4px solid;
+        }
+
+        .inside_of_the_button {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .three_divs {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            width: 60%;
+            font-family: Helvetica;
+
+        }
+
+        .firstDiv {
+            font-size: 38px;
+            margin-bottom: 35px;
+        }
+
+        .secondDiv {
+            font-size: 76px;
+            font-weight: 400;
+        }
+
+        .thirdDiv {
+            margin-top: 35px;
+        }
+
+        .white_space {
+            height: 6%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Helvetica;
+        }
+
+        .scroll_down {
+            font-size: 17px;
+        }
+
+
+        .second_section {
+            background-color: white;
+        }
+
+        .div-of-second-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: space-between;
+            font-family: Helvetica;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+
+        .content-of-div-of-second-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        .content-4-second-section {
+            margin-top: 90px;
+        }
+
+        .content-3-second-section {
+            margin-top: 90px;
+        }
+        
+        .content-2-second-section {
+            margin-top: 100px;
+        }
+
+        .left_div {
+            color: #D60B1A;
+            font-size: 27px;
+            font-weight: bolder;
+        }
+
+        .right_div {
+            width: 705px;
+            height: 100%;
+            color: black;
+            font-size: 17px;
+        }
+
+        .space_between_point_and_text {
+            margin-left: 50px;
+        }
+
+        .third_section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            align-content: space-between;
+        }
+
+        .left_and_right_half {
+            width: 50%;
+            height: 500px;
+            font-family: Helvetica;
+        }
+
+        .right_half {
+            background-color: #D60B1A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div-of-right-half {
+            width: 60%;
+            text-align: center;
+            color: white;
+        
+        }
+
+        .title-and-third-part-of-right-half {
+            font-size: 23px;
+        }
+
+        .paragraph-and-fourth-part-of-right-half {
+            padding-top: 22px;
+            line-height: 22px;
+        }
+
+        .paragraph-of-right-half {
+            font-size: 16px;
+            
+        }
+
+        .third-part-of-right-half {
+            padding-top: 45px;
+        }
+
+        .fourth_section {
+            background-color: black;
+        }
+
+        .div-of-fourth-section {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            color: white;
+        }
+
+        .content2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .icons-list {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            color: #999999;
+        }
+
+        .lower--content {
+            margin-top: 120px;
+        }
+
+        .mutual--paragraph {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .mutual--span {
+            margin-top: 2px;
+        }
+
+        .different--span {
+            margin-top: 25px;
+        }
+
+        .mutual-font_size {
+            font-size: 20px;
+        }
+
+        .right-paragraph_and_icons {
+            width: 270px;
+        }
