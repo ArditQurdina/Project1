@@ -117,6 +117,7 @@ body,
         .left_div {
             font-size: 27px;
             font-weight: bolder;
+            margin: 0px;
         }
 
         .left-part-of-div-of-second-section {
@@ -125,7 +126,6 @@ body,
 
         .right_div {
             width: 715px;
-
         }
 
         .right-part-of-div-of-second-section {
@@ -133,17 +133,24 @@ body,
             flex-direction: column;
             justify-content: space-between;
         }
+        .right-part-second-section {
+            margin: 0px;
+        }
 
         .first-mutual-font-size {
             font-size: 27px;
         }
+        .first-right-part-second-section {
+            margin: 0px;
+            margin-bottom: 30px;
+        }
+        
         .second-mutual-font-size {
             font-size: 17px;
         }
 
         .second-right-part-second-section {
-            height: 51px;
-            margin-top: 30px;
+            margin: 0px;
         }
         
 
@@ -166,6 +173,7 @@ body,
 
         .right-part-of-div-of-third-section {
             color: white;
+            margin: 0px;
         }
 
         .fourth_section {
@@ -185,7 +193,10 @@ body,
             color: #D60B1A;
         }
 
-
+        .right-part-of-div-of-fourth-section {
+            margin: 0px;
+        }
+        
         .fifth_section {
             background-color: black;
             border-bottom: 1px solid #707070;

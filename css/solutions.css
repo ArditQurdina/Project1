@@ -116,11 +116,13 @@ body,
             font-size: 27px;
             color: #D60B1A;
             font-weight: bolder;
+            margin: 0px;
         }
 
         .right_div {
             width: 705px;
             font-size: 17px;
+            margin: 0px;
         }
 
         .third_section {
@@ -141,10 +143,12 @@ body,
             width: 100%; 
             display: flex; 
             justify-content: space-between;
-            margin-top: 50px;
+            margin-top: 110px;
         }
         .left-lower-div {
             font-size: 17px;
+            margin: 0px;
+
         }
         .left-lower-div-contain {
             color: black; text-decoration-line: none; opacity: 50%;
