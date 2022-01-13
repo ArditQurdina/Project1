@@ -80,6 +80,7 @@ body,
         .firstDiv {
             font-size: 38px;
             margin-bottom: 35px;
+            margin: 0px;
         }
 
         .secondDiv {
