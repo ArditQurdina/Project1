@@ -1,0 +1,142 @@
+.background-image {
+  background-image: url("../img/Interne.png");
+}
+
+.second_section {
+  background-color: white;
+}
+
+.second_section .div-of-second-section {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.second_section .div-of-second-section .content-of-div-of-second-section {
+  width: 100%;
+}
+
+.second_section .div-of-second-section .content-2-second-section, .second_section .div-of-second-section .content-3-second-section, .second_section .div-of-second-section .content-4-second-section {
+  margin-top: 90px;
+}
+
+.left_div {
+  color: #D60B1A;
+  font-size: 27px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.right_div {
+  width: 705px;
+  height: 100%;
+  color: black;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.space_between_point_and_text {
+  margin-left: 50px;
+}
+
+.third_section {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.third_section .left_and_right_half {
+  width: 50%;
+  height: 500px;
+  font-family: Helvetica;
+}
+
+.third_section .right_half {
+  background-color: #D60B1A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third_section .right_half .div-of-right-half {
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+
+.third_section .right_half .div-of-right-half .title-and-third-part-of-right-half {
+  font-size: 23px;
+}
+
+.third_section .right_half .div-of-right-half .paragraph-and-fourth-part-of-right-half {
+  padding-top: 22px;
+  line-height: 22px;
+}
+
+.third_section .right_half .div-of-right-half .paragraph-of-right-half {
+  font-size: 16px;
+}
+
+.third_section .right_half .div-of-right-half .third-part-of-right-half {
+  padding-top: 45px;
+}
+
+.fourth_section {
+  background-color: black;
+}
+
+.fourth_section .div-of-fourth-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: Helvetica;
+}
+
+.fourth_section .div-of-fourth-section .lower--content {
+  margin-top: 120px;
+}
+
+.fourth_section .div-of-fourth-section .lower--content .icons-list {
+  list-style-type: none;
+  color: #707070;
+}
+
+.mutual--paragraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.mutual--paragraph .mutual--span {
+  margin-top: 2px;
+}
+
+.mutual--paragraph .different--span {
+  margin-top: 25px;
+}
+
+.mutual-font_size {
+  font-size: 20px;
+}
+
+.right-paragraph_and_icons {
+  width: 270px;
+}
+/*# sourceMappingURL=training2.css.map */

@@ -1,0 +1,36 @@
+$hexColor1 : #D60B1A;
+$hexColor2 : white;
+$color3 : black;
+$borderBottom : #707070;
+
+@mixin flexBox1() {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@mixin readMoreButton {
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 22px;
+    background: none;
+    color: $hexColor2;
+    border: 1.4px solid;
+}
+
+@mixin inside-Of-The-Button {
+    color: $hexColor2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@mixin padding1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: Helvetica;
+}
+
+@mixin content2-icons-list {
+    display: flex;
+    justify-content: space-between;
+}

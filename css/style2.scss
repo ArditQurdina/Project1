@@ -1,0 +1,112 @@
+$hexColor1 : #D60B1A;
+$hexColor2 : white;
+$color3 : black;
+$borderBottom : #707070;
+
+@mixin bodyHTML {
+        height: 100%;
+        margin: 0;
+}
+        
+@mixin firstSection {
+    height: 94%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+    @mixin mutualDIV {
+        width: 70%;
+        margin: auto;
+    }
+    
+    @mixin header {
+        padding: 20px 0px;
+    }
+
+    @mixin Menu {
+        font-family: 'GT Haptik';
+        text-decoration-line: none;
+        color: $hexColor2;
+        font-weight: 800;
+        float: right;
+        font-size: 20px;
+    }
+
+    @mixin shake-swiss {
+        width: 150px;
+    }
+
+    @mixin readMoreButton {
+        padding: 12px 35px;
+        text-align: center;
+        border-radius: 22px;
+        background: none;
+        color: $hexColor2;
+        border: 1.4px solid;
+    }
+
+    @mixin inside-Of-The-Button {
+        color: $hexColor2;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    @mixin threeDivs {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: $hexColor2;
+        width: 60%;
+        font-family: Helvetica;
+    }
+
+    @mixin firstDiv {
+        font-size: 38px;
+        margin-bottom: 35px;
+
+    }
+
+    @mixin secondDiv {
+        font-size: 76px;
+        font-weight: 400;
+    }
+
+    @mixin thirdDiv {
+        margin-top: 35px;
+    }
+
+    @mixin white_space {
+        height: 6%;
+        background-color: $hexColor2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Helvetica;
+    }
+
+    @mixin scroll_down {
+        font-size: 17px;
+    }
+
+    @mixin padding1 {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        font-family: Helvetica;
+    }
+    
+    @mixin flexBox1() {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    @mixin content2-icons-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @import "./consulting-solutions-training";

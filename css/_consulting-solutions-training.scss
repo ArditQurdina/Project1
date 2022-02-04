@@ -1,0 +1,72 @@
+
+body,
+        html {
+            @include bodyHTML();
+        }
+        
+        .first_section {
+            @include firstSection();
+            .header-of-first-section {
+                @include header();
+                .menu {
+                    @include Menu();
+                }
+                .shake-swiss {
+                    @include shake-swiss();
+                }
+            }
+            .three_divs {
+                @include threeDivs();
+                .firstDiv {
+                    @include firstDiv();
+                }
+                .secondDiv {
+                    @include secondDiv();                
+                }
+                .thirdDiv {
+                    @include thirdDiv();
+                }
+            }            
+        }
+        
+        .mutual_div {
+            @include mutualDIV();
+        }
+
+        .readMore_Button {
+            @include readMoreButton();
+        }
+
+        .inside_of_the_button {
+            @include inside-Of-The-Button();
+        }
+        
+        .white_space {
+            @include white_space();
+            .scroll_down {
+                @include scroll_down();
+            }    
+        }
+        
+        .div-of-second-section {
+            @include padding1();
+            @include flexBox1();
+        }
+
+            .inside_of_the_third_button {
+                @include inside-Of-The-Button();
+            }
+                .content2 {
+                    @include content2-icons-list();
+                }
+
+                    .icons-list {
+                        @include content2-icons-list();
+                    }
+
+
+
+
+
+        
+        

@@ -1,0 +1,136 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.first_section {
+  height: 94%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.first_section .header-of-first-section {
+  padding: 20px 0px;
+}
+
+.first_section .header-of-first-section .menu {
+  font-family: 'GT Haptik';
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: white;
+  font-weight: 800;
+  float: right;
+  font-size: 20px;
+}
+
+.first_section .header-of-first-section .shake-swiss {
+  width: 150px;
+}
+
+.first_section .three_divs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 60%;
+  font-family: Helvetica;
+}
+
+.first_section .three_divs .firstDiv {
+  font-size: 38px;
+  margin-bottom: 35px;
+}
+
+.first_section .three_divs .secondDiv {
+  font-size: 76px;
+  font-weight: 400;
+}
+
+.first_section .three_divs .thirdDiv {
+  margin-top: 35px;
+}
+
+.mutual_div {
+  width: 70%;
+  margin: auto;
+}
+
+.readMore_Button {
+  padding: 12px 35px;
+  text-align: center;
+  border-radius: 22px;
+  background: none;
+  color: white;
+  border: 1.4px solid;
+}
+
+.inside_of_the_button {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.white_space {
+  height: 6%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Helvetica;
+}
+
+.white_space .scroll_down {
+  font-size: 17px;
+}
+
+.div-of-second-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-family: Helvetica;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.inside_of_the_third_button {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icons-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style2.css.map */

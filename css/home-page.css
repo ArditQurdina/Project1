@@ -6,13 +6,10 @@ body,
 
         .first_section {
             background-image: url("../img/augustine-wong-wjL78m4a2qM-unsplash.png");
-
             height: 94%;
-
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;        
-
         }
 
         .mutual_div {

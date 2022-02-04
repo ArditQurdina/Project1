@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+
+.sixth_section {
+    background-color: $color3;
+    .div-of-sixth-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-family: Helvetica;
+        color: white;
+        .content2 {
+            @include content2-icons-list();
+        }
+        .lower--content {
+            margin-top: 120px;
+            .icons-list {
+                @include content2-icons-list();
+                list-style-type: none;
+                color: $borderBottom;
+            }
+        }        
+    }
+}
+.mutual--paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .mutual--span {
+        margin-top: 2px;
+    }
+    .different--span {
+        margin-top: 25px;
+    }
+}     
+.mutual-font_size {
+    font-size: 20px;
+}
+.right-paragraph_and_icons {
+    width: 270px;
+}

@@ -1,0 +1,105 @@
+.background-image {
+    background-image: url("../img/Interne.png");
+}
+
+.second_section {
+    background-color: white;
+    .div-of-second-section {
+        flex-wrap: wrap;
+        align-content: space-between;    
+        .content-of-div-of-second-section {
+            width: 100%;
+        }
+        .content-2-second-section, .content-3-second-section, .content-4-second-section {
+            margin-top: 90px;
+        }
+    }
+}
+.left_div {
+    color: #D60B1A;
+    font-size: 27px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.right_div {
+    width: 705px;
+    height: 100%;
+    color: black;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.space_between_point_and_text {
+    margin-left: 50px;
+}
+
+.third_section {
+    flex-wrap: wrap;
+    align-content: space-between;
+    .left_and_right_half {
+        width: 50%;
+        height: 500px;
+        font-family: Helvetica;
+    }
+    .right_half {
+        background-color: #D60B1A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .div-of-right-half {
+            width: 60%;
+            text-align: center;
+            color: white;
+            .title-and-third-part-of-right-half {
+                font-size: 23px;
+            }
+            .paragraph-and-fourth-part-of-right-half {
+                padding-top: 22px;
+                line-height: 22px;
+            }
+            .paragraph-of-right-half {
+                font-size: 16px;
+                
+            }
+            .third-part-of-right-half {
+                padding-top: 45px;
+            }
+        }
+    }
+}
+
+.fourth_section {
+    background-color: black;
+    .div-of-fourth-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-family: Helvetica;
+        .lower--content {
+            margin-top: 120px;
+            .icons-list {
+                list-style-type: none;
+                color: #707070;
+            }
+        }        
+    }
+}
+.mutual--paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .mutual--span {
+        margin-top: 2px;
+    }
+    .different--span {
+        margin-top: 25px;
+    }
+}                               
+.mutual-font_size {
+    font-size: 20px;
+}
+.right-paragraph_and_icons {
+    width: 270px;
+}
+
